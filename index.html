@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/1_resets.css" />
+    <link rel="stylesheet" href="./Styles/2_variables.css" />
+    <link rel="stylesheet" href="./Styles/3_utilities.css" />
+    <link rel="stylesheet" href="./Styles/4_header.css" />
+    <link rel="stylesheet" href="./Styles/5_footer.css" />
+    <link rel="stylesheet" href="./Styles/6_home.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <a
+          class="logo"
+          href="https://www.linkedin.com/in/inga-sinkevi%C4%8Di%C5%ABt%C4%97-a3a898106/"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="logo" href="https://github.com/inga-sinkeviciute">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <ul class="nav-bar" id="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <div class="hero about-me" id="home">
+      <div class="hero-info">
+        <div class="styled-break"></div>
+        <h1 id="name">Front-End Developer</h1>
+        <p>
+          Greetings. My name is Inga Sinkevičiūtė. I am a Lithuanian former
+          Financial Crime Analyst who has decided to become a Front-end React
+          Developer.
+        </p>
+        <div class="styled-break"></div>
+        <a href="./pages/resume.html" class="button">My Resume</a>
+      </div>
+    </div>
+
+    <section class="projects" id="projects">
+      <h1 class="section-title">PROJECTS</h1>
+      <div class="project">
+        <div class="project-content">
+          <div class="project-image">
+            <img src="../cv_page/img/landing.png" alt="Project 1" />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Landing Page</h3>
+            <p class="project-description">
+              A landing page built using
+              <strong>HTML, SCSS, JavaScript</strong>. One of the first projects
+              I have ever made in a 'work-in-progress' type of way. Created more
+              to be visually appealing rather than functional.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/inga-sinkeviciute/landing-page"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://inga-sinkeviciute.github.io/landing-page/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-external-link"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-content">
+          <div class="project-details">
+            <h3 class="project-title">Todo List</h3>
+            <p class="project-description">
+              A todo list application built using
+              <strong>React.js, Vite, Bulma</strong>. Fully functional and
+              completed. Created with the idea that a lot of the parts of this
+              project can be reusable.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/inga-sinkeviciute/todo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://inga-sinkeviciute.github.io/todo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-external-link"></i> Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="./img/todo.png" alt="Project 2" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-content">
+          <div class="project-image">
+            <img src="./img/gym.png" alt="Project 3" />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Registration Tool</h3>
+            <p class="project-description">
+              A gym registration page built using
+              <strong>MongoDB, React, Node.js, and CSS</strong>. This little
+              project was created to check my abilities to work with both
+              back-end and front-end functionalities.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/inga-sinkeviciute/Gym"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://inga-sinkeviciute.github.io/Gym/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-external-link"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contacts">
+      <h4>tel: +37065493609</h4>
+      <h4>email: inga.sinkeviciute@hotmail.com</h4>
+    </footer>
+    <script src="./scripts/script.js" defer></script>
+  </body>
+</html>

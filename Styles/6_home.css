@@ -1,0 +1,134 @@
+.hero {
+  background-image: url(../img/Pink-Wallpapers-Free-HD-Download-500-HQ-Unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-info {
+  margin: 30px;
+  max-width: 600px;
+  font-size: 19px;
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-info {
+    max-width: 700px;
+  }
+}
+
+.styled-break {
+  width: 30px;
+  height: 5px;
+  border-radius: 2.5px;
+  margin: 30px 0 30px 0;
+}
+
+#name {
+  font-size: 45px;
+}
+
+.button {
+  border: 0;
+  padding: 10px 20px;
+  background-color: var(--footer-color);
+  width: 120px;
+  border-radius: 20px;
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+.button:hover {
+  color: var(--light-color);
+  background-color: var(--menu-burger-color);
+}
+
+.button:active {
+  color: var(--light-color);
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+  background-color: var(--accents-color);
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: 2em;
+}
+.projects {
+  margin-top: 50px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.project-image {
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-details {
+  flex: 0 0 40%;
+  padding-left: 20px;
+}
+
+.project-description {
+  text-align: center;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--menu-burger-color);
+}
+
+@media only screen and (max-width: 700px) {
+  .project-content {
+    flex-direction: column;
+  }
+
+  .project-image,
+  .project-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-details {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
